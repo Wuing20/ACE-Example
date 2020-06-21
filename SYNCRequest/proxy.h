@@ -3,6 +3,7 @@
 
 #include "servant.h"
 #include "ResponsePdu.h"
+#include "RequestPdu.h"
 
 class CScheduler;
 

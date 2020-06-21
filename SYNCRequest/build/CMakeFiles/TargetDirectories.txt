@@ -1,0 +1,3 @@
+/home/scutech/CodeBase/ACE-Example/SYNCRequest/build/CMakeFiles/edit_cache.dir
+/home/scutech/CodeBase/ACE-Example/SYNCRequest/build/CMakeFiles/rebuild_cache.dir
+/home/scutech/CodeBase/ACE-Example/SYNCRequest/build/CMakeFiles/SYNCRequest.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -O0 -Wall -g -ggdb -lpthread -lACE -g   CMakeFiles/SYNCRequest.dir/servant.cpp.o CMakeFiles/SYNCRequest.dir/Client.cpp.o CMakeFiles/SYNCRequest.dir/proxy.cpp.o CMakeFiles/SYNCRequest.dir/scheduler.cpp.o CMakeFiles/SYNCRequest.dir/main.cpp.o  -o SYNCRequest -rdynamic 

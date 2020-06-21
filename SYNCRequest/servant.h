@@ -1,7 +1,7 @@
 #ifndef __SERVANT_INCLUDE
 #define __SERVANT_INCLUDE
 
-#include "access.idl/Singleton.h"
+#include "ace/Singleton.h"
 #include <list>
 
 #define DATA_SIZE 255
@@ -50,6 +50,6 @@ private:
     std::list<STRequest> _lstItems;
 };
 
-typedef ACE_Singletion<CServantT,ACE_Thread_Mutex> CServant;
+typedef ACE_Singleton<CServantT,ACE_Thread_Mutex> CServant;
 
 #endif

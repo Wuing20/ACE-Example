@@ -8,7 +8,7 @@ class CResponsePdu : public CPduBase
 {
 public:
     CResponsePdu(int nTimeout) 
-        : _nTimeout(nTimeout)
+        : _nTimeout(nTimeout),
           _semLock(0)
     {}
 

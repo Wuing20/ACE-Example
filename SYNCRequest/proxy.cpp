@@ -1,8 +1,10 @@
 #include "proxy.h"
-#include "Schedule.h"
+#include "scheduler.h"
 
 #ifdef TIMEOUT
 #undef TIMEOUT
+#define TIMEOUT 20
+#else
 #define TIMEOUT 20
 #endif
 

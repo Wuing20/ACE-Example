@@ -1,5 +1,7 @@
 #include "scheduler.h"
 
+#define THREAD_NUMS 10
+
 int CScheduler::open(void *)
 {
     activate(THR_NEW_LWP,1);
@@ -26,7 +28,7 @@ int CScheduler::svc(void)
         }
 
         pPdu->Release();
-        Sleep(1);
+		ACE_OS::sleep(1);
     }
 
     return 0;

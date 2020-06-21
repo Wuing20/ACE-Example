@@ -33,12 +33,12 @@ int CClient::svc(void)
                 ACE_DEBUG((LM_DEBUG,"req and res not samiler: %s",tResp._chResult));
                 pResp->Release();
             }
-            catch(CPduException &e){
+		}
+        catch(CPduException &e){
 
-            }
-
-            Sleep(1);
         }
+
+		ACE_OS::sleep(1); 
     }
 
     return 0;

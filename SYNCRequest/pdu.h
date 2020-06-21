@@ -18,7 +18,7 @@ public:
 class CPduBase
 {
 public:
-    CPduBase : _nRef(1)
+    CPduBase() : _nRef(1)
     {}
 
     virtual bool Guard() const = 0;
